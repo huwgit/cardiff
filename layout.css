@@ -1,0 +1,109 @@
+body{
+    font-family: franklin_gothic_fs_medregular,Arial,Helvetica Neue,sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+
+.input-group{
+    width: 80% ! important;
+    margin: 0 auto ! important;
+}
+
+header, main{
+
+    width: 100%;
+    background-color: #f6f6f6;
+    margin-top: 20px;
+    padding: 30px 50px;
+}
+
+.input-group{
+    width: 80% ! important;
+    margin: 0 auto ! important;
+}
+h1{
+    color: darkred;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+h2{ 
+    color: royalblue;
+    font-size: 2em;
+}
+main h2{
+    font-size: 1.5em;
+    color: darkred;
+    padding-bottom: 15px;
+}
+
+main h2 span{
+    color: black;
+}
+
+h4{
+    font-size: 1.3em;
+}
+
+h3{
+    font-size: 1.3em;
+    color: #222;
+    text-align: center;
+}
+
+
+p{
+    padding-left: 30px;
+}
+
+p.up{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding: 30px 0 20px;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 20px;
+    line-height: 1.5em;
+    font-size:1.2em;
+}
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+header, main{
+    padding: 30px 50px;
+}
+
+.input-group{
+    width: 50% ! important;
+    margin: 0 auto ! important;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 35px;
+    line-height: 1.7em;
+    font-size:1.2em;
+}
+
+}
+
+
+
+
